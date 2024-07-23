@@ -1,0 +1,13 @@
+{
+    "name": "myapp/counter",
+    "description": "A simple PHP counter application",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MyApp\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    }
+}
